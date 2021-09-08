@@ -1,0 +1,17 @@
+Create a form with the following inputs (name, email, password, address, gender, linkedin url) Validate inputs then return message to user . 
+* validation rules ... 
+name  = [required , string]
+
+email = [required,email]
+
+password = [required,min = 6]
+
+address = [required,length = 10 chars]
+
+gender = [required]
+
+linkedin url = [reuired | url] ======> custom preg_match
+
+Profile image ====> link to open 
+
+Store data in your browser then read it in index page
